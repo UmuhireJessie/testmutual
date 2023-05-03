@@ -1,0 +1,108 @@
+.signup-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FFFFFF;
+  border-radius: 10px;
+  margin-left: 5em;
+  margin-right: 5em;
+  margin-top: 4em;
+  max-height: 100%;
+}
+
+.signup-card-left {
+  flex: 0.9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(270deg, #60B848 1.64%, #009677 98.36%);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  height: 100%;
+}
+.signup-card-left img {
+  max-width: 100%;
+  background-color: transparent;
+  margin-top: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.signup-card-left h2 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+  background-color: transparent;
+}
+.signup-card-left h2:last-child {
+  margin-bottom: 3rem;
+}
+.signup-card-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: transparent;
+}
+
+.signup-card-right h3 {
+  color: #50B848;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+  background-color: transparent;
+  padding-bottom: 20px;
+}
+.signup-card-r-child {
+  background-color: transparent;
+  margin-bottom: 1.5rem;
+}
+
+.signup-card-left img {
+  width: 400px;
+  height: 200px;
+  margin: 10px 10px 0 0;
+}
+form {
+  background: transparent;
+}
+.form-field {
+  margin-bottom: 15px;
+  background: transparent;
+}
+
+.form-field input {  
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid #F5F5F5;
+  background: #F5F5F5;
+  width: 500px;
+} 
+.form-field input:focus {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+form p {
+  margin-top: 18px;
+  background: transparent;
+  font-size: 12px
+}
+
+form a {
+  color: #60B848;
+  background: transparent;
+  text-decoration: none;
+}
+
+button[type="submit"] {
+  background: linear-gradient(270deg, #60b848 1.64%, #009677 98.36%);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+}
